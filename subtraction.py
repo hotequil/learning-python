@@ -1,5 +1,5 @@
-currentYear = int(input("What's the current year: "))
-birthYear = int(input("What's your birth year: "))
-subtraction = currentYear - birthYear
+current_year = int(input("What's the current year: "))
+birth_year = int(input("What's your birth year: "))
+subtraction = current_year - birth_year
 
 print("Your age should be " + str(subtraction))
