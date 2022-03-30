@@ -5,5 +5,6 @@ second_number = input("Digit the second number: ")
 print("Second number is " + second_number)
 
 final_sum = int(first_number) + int(second_number)
+phrase = "The sum is {}".format(final_sum)
 
-print("The sum is " + str(final_sum))
+print(phrase)
