@@ -1,2 +1,2 @@
-for counter in range(5, 10):
+for counter in range(4, 21, 2):
     print("Counter is: {}".format(counter))
