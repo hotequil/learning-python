@@ -1,4 +1,4 @@
-fruits = ["apple", "banana", "strawberry"]
+fruits = ["apple", "banana", "strawberry", "strawberry", "strawberry", "strawberry", "strawberry"]
 
 print(fruits)
 
@@ -15,3 +15,5 @@ print(fruits)
 fruits.remove("banana")
 
 print(fruits)
+print(len(fruits))
+print(fruits.count("strawberry"))
