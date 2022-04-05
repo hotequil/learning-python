@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
-print(math.sqrt(64))
-print(math.sqrt(36))
+print(sqrt(64))
+print(sqrt(36))

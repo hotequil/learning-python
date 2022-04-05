@@ -1,4 +1,4 @@
-from utils import get_grade_media, which_is_the_biggest
+from utils import *
 
 print("Your media is {}".format(get_grade_media()))
 print("Biggest is {}".format(which_is_the_biggest(5, 10)))
