@@ -17,3 +17,11 @@ fruits.remove("banana")
 print(fruits)
 print(len(fruits))
 print(fruits.count("strawberry"))
+
+fruits.sort()
+
+print(fruits)
+
+fruits.reverse()
+
+print(fruits)
