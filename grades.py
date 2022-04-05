@@ -12,13 +12,8 @@ while option != 4:
         for index in range(len(grades)):
             print("Grade ({}): {:.2f} \n".format(index + 1, grades[index]))
     elif option == 3:
-        media = 0
-        length = len(grades)
-
-        for index in range(length):
-            media += grades[index]
-
-        media /= length
+        media = sum(grades)
+        media /= len(grades)
 
         print("Media: {:.2f}".format(media))
 
