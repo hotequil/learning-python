@@ -1,27 +1,25 @@
 fruits = ["apple", "banana", "strawberry", "strawberry", "strawberry", "strawberry", "strawberry"]
-
-print(fruits)
+print("declaration: {}".format(fruits))
 
 fruits.append("pineapple")
 fruits.append(input("Put a new fruit: "))
-fruits.insert(2, "blueberry")
+print("append: {}".format(fruits))
 
-print(fruits)
+fruits.insert(2, "blueberry")
+print("insert: {}".format(fruits))
 
 fruits.pop()
-
-print(fruits)
+print("pop: {}".format(fruits))
 
 fruits.remove("banana")
+print("remove: {}".format(fruits))
 
-print(fruits)
-print(len(fruits))
-print(fruits.count("strawberry"))
+print("length: {}".format(len(fruits)))
+
+print("count of strawberry: {}".format(fruits.count("strawberry")))
 
 fruits.sort()
-
-print(fruits)
+print("sort: {}".format(fruits))
 
 fruits.reverse()
-
-print(fruits)
+print("reverse: {}".format(fruits))
