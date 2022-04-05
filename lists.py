@@ -7,3 +7,11 @@ fruits.append(input("Put a new fruit: "))
 fruits.insert(2, "blueberry")
 
 print(fruits)
+
+fruits.pop()
+
+print(fruits)
+
+fruits.remove("banana")
+
+print(fruits)
