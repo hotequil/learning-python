@@ -11,6 +11,9 @@ print("insert: {}".format(fruits))
 fruits.pop()
 print("pop: {}".format(fruits))
 
+fruits.pop(5)
+print("pop index 5: {}".format(fruits))
+
 fruits.remove("banana")
 print("remove: {}".format(fruits))
 
