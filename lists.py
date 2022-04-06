@@ -26,3 +26,6 @@ print("sort: {}".format(fruits))
 
 fruits.reverse()
 print("reverse: {}".format(fruits))
+
+first_item, second_item = ["clock", "notebook"]
+print("first item: {} | second item: {}".format(first_item, second_item))
