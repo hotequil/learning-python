@@ -46,3 +46,16 @@ print(f"products: {products}")
 products.popitem()
 
 print(f"products: {products}")
+
+contacts = {
+    "hotequil": {
+        "email": "hotequil@email.com",
+        "phone": 1234
+    },
+    "joao": {
+        "email": "joao@email.com",
+        "phone": 5678
+    }
+}
+
+print(f"contacts: {contacts}")
