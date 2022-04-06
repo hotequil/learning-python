@@ -38,3 +38,11 @@ products[shelf_key] = product_name
 
 print(f"{shelf_key}: {product_name}")
 print(f"products: {products}")
+
+products.pop("shelf_two")
+
+print(f"products: {products}")
+
+products.popitem()
+
+print(f"products: {products}")
