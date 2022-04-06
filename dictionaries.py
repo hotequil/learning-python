@@ -31,3 +31,10 @@ products["shelf_five"] = "car"
 print(f"shelf four: {products['shelf_four']}")
 print(f"shelf five: {products['shelf_five']}")
 print(f"products: {products}")
+
+shelf_key = input("Put a shelf: ")
+product_name = input("Put a product: ")
+products[shelf_key] = product_name
+
+print(f"{shelf_key}: {product_name}")
+print(f"products: {products}")
