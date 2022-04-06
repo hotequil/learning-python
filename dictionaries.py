@@ -24,3 +24,10 @@ for key in products_keys:
 
 for product_key, product_value in items:
     print(f"key: {product_key} | value: {product_value}")
+
+products["shelf_four"] = "tomato"
+products["shelf_five"] = "car"
+
+print(f"shelf four: {products['shelf_four']}")
+print(f"shelf five: {products['shelf_five']}")
+print(f"products: {products}")
