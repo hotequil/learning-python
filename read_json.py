@@ -8,3 +8,5 @@ print(f"content: {content}")
 print(f"content type: {type(content)}")
 print(f"beers: {beers}")
 print(f"beers type: {type(beers)}")
+
+file.close()
