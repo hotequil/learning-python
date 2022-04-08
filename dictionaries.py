@@ -47,6 +47,10 @@ products.popitem()
 
 print(f"products: {products}")
 
+products.clear()
+
+print(f"products: {products}")
+
 contacts = {
     "hotequil": {
         "email": "hotequil@email.com",
