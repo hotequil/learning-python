@@ -1,4 +1,4 @@
-class Stack:
+class Queue:
     def __init__(self):
         self.list = []
 
@@ -9,18 +9,18 @@ class Stack:
         self.list.append(item)
 
     def remove(self):
-        return self.list.pop()
+        return self.list.pop(0)
 
     def is_empty(self):
         return not self.list
 
-stack = Stack()
+queue = Queue()
 
-stack.add(1)
-stack.add(2)
-stack.add(3)
-stack.add(4)
+queue.add(1)
+queue.add(2)
+queue.add(3)
+queue.add(4)
 
-print(f"remove: {stack.remove()}")
-print(f"is_empty: {stack.is_empty()}")
-print(f"str stack: {stack}")
+print(f"remove: {queue.remove()}")
+print(f"is_empty: {queue.is_empty()}")
+print(f"str queue: {queue}")
